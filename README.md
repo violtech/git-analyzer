@@ -55,7 +55,7 @@ Tests include synthetic Git histories, classification rules, release handling, r
 
 ## Citation and feedback
 
-Use [CITATION.cff](CITATION.cff) to cite the software. When citing findings from the AI Development Activity Index, credit **Violtech** and link to the [report](https://www.violtech.com/statistics/ai-development-activity-index).
+Use [CITATION.cff](CITATION.cff) to cite the software. When citing findings from the [AI Development Activity Index](https://www.violtech.com/statistics/ai-development-activity-index), credit [**Violtech**](https://www.violtech.com/) and [link to the report](https://www.violtech.com/statistics/ai-development-activity-index).
 
 Report reproducible analyzer bugs through [GitHub Issues](https://github.com/violtech/git-analyzer/issues). Include the analyzer version, relevant command, repository and applicable rules, while removing credentials and private repository information.
 

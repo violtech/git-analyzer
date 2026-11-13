@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
+  "homepage": "https://www.violtech.com/statistics/ai-development-activity-index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violtech/git-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/violtech/git-analyzer/issues"
+  },
+  "keywords": ["git-analytics", "ai-coding", "developer-productivity", "cli", "nextjs"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
