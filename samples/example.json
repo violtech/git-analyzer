@@ -1,0 +1,4 @@
+{
+  "_comment": "Example list for `ga sample`. Only `repos` is read: a list of owner/name. Copy this file, change the repositories, and pass it with --list. Run: npm run sample -- --list samples/example.json",
+  "repos": ["ollama/ollama", "ggml-org/llama.cpp", "pydantic/pydantic-ai"]
+}

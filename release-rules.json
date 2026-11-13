@@ -1,0 +1,16 @@
+{
+  "_comment": "Per-repository release rules, keyed by lowercase owner/name. Each list holds regular expressions tested against the tag name (case-insensitive). Only needed when the defaults get a repository wrong: stable = real releases, pre = rc/nightly/dev builds, rolling = continuous build numbers, ignore = other packages or malformed tags.",
+  "langchain-ai/langchain": {
+    "stable": ["^v\\d+\\.\\d+\\.\\d+$", "^langchain==\\d+\\.\\d+\\.\\d+$"]
+  },
+  "openai/codex": {
+    "stable": ["^rust-v\\d+\\.\\d+\\.\\d+$"],
+    "pre": ["^rust-v\\d+\\.\\d+\\.\\d+-(alpha|beta)"],
+    "ignore": ["^rust-vrust", "^rust-vv", "^rust-v\\.", "^rusty-", "^python-", "^artifact-"]
+  },
+  "ggml-org/llama.cpp": {
+    "rolling": ["^b\\d+$"],
+    "stable": ["^v\\d+\\.\\d+\\.\\d+$"],
+    "ignore": ["^master-", "^gguf-v"]
+  }
+}

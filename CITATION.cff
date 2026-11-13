@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this software when using Git Analyzer. Cite Violtech's report separately when referencing its findings."
+title: "Git Analyzer"
+type: software
+authors:
+  - name: "Violtech"
+version: 0.1.0
+date-released: 2026-11-12
+url: "https://github.com/violtech/git-analyzer"
+repository-code: "https://github.com/violtech/git-analyzer"
+license: MIT
+abstract: "Local Git repository analytics for commit activity, explicit AI attribution, source growth and release history."
